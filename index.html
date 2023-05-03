@@ -25,7 +25,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class='bx bxs-home nav__icon'></i> Home
                         </a>
                     </li>
@@ -73,7 +73,7 @@
                 <div class="home__content grid">
                     <div class="home__social">
                         <a href="https://www.linkedin.com/in/kanchan-sarkar-7a280123a/" target="_blank" class="home__social-icon">
-                            <i class="ri-instagram-fill"></i>
+                            <i class='bx bxl-linkedin' ></i>
                         </a>
 
                         <a href="https://github.com/Kanchan-Sarkar" target="_blank" class="home__social-icon">
@@ -759,18 +759,6 @@
                             </div>
                         </div>
                          <!-- Card 3 Ends-->
-                         <!-- Card 4 Starts-->
-                        <div class="card" data-item="website">
-                            <div class="imgBox">
-                                <img src="imgall/Quote.png">
-                            </div>
-                            <div class="imgText">
-                                <h2>Quote Generator</h2>
-                                <p>This is a Quote Generator.
-                                </p>
-                            </div>
-                        </div>
-                         <!-- Card 4 Ends-->
                           <!-- Card 5 Starts-->
                         <div class="card" data-item="website">
                             <div class="imgBox">
@@ -882,23 +870,121 @@
                 </div>
             </div>
          </section>
- <!--========================== TESTIMONIAL ===========================-->
-
+        <!--========================== TESTIMONIAL ===========================-->
 
 
         <!--========================== CONTAACTME ===========================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get In Touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class='bx bxs-phone contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91-7908577300</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class='bx bxs-envelope-open contact__icon' ></i>
+
+                        <div>
+                            <h3 class="contact__title">Gmail</h3>
+                            <span class="contact__subtitle">kanchansarkar400@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class='bx bxs-map contact__icon' ></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Asansol - West Bengal, India</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send
+                            <i class='bx bxs-send button__icon'></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
 
     </main>
+    <!--================================== FOOTER =======================================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">KSDesign</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
 
+                <ul class="footer__links">
+                    <li>
+                       <a href="#home" class="footer__link">Home</a> 
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projects</a> 
+                     </li>
+                     <li>
+                        <a href="#services" class="footer__link">Services</a> 
+                     </li>
+                </ul>
 
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/kanchan.sarkar.7370/" class="footer__social">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
 
+                    <a href="https://www.linkedin.com/in/kanchan-sarkar-7a280123a/" class="footer__social">
+                        <i class='bx bxl-linkedin-square' ></i> 
+                    </a>
 
-   <!--================================== FOOTER =======================================-->
+                    <a href="https://github.com/Kanchan-Sarkar" class="footer__social">
+                        <i class='bx bxl-github' ></i> 
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; KanchanSarkar. All right reserved</p>
+        </div>
+    </footer>
    
     <!---=============================SCROLL TOP===========================================-->
     
     <!-----=================== SWIPER JS=====================================-->
     <script src=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!--------------- MAIN JS------------------------------------->
     <script src="script.js"></script>
 </body>
